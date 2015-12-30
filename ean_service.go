@@ -108,9 +108,9 @@ const (
 // It is format agnostic and called inside the Ean interface build() method.
 func MakeEanSpecs() EanHspService {
 	return EanHspService{
-		cid:                      "55505", //"420497",
+		cid:                      "",
 		minorRev:                 "26",
-		apiKey:                   "8s93786mxbn4pubeh4rffwrq", //"9ezsggev7p3azddduvwcbn8w",
+		apiKey:                   "",
 		locale:                   "en_US",
 		customerSessionId:        "theother",
 		customerIpAddress:        "that",
